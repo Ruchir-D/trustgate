@@ -2,4 +2,4 @@ node_modules/
 dist/
 *.tsbuildinfo
 .DS_Store
-# packages/kernel/node_modules
+packages/kernel/node_modules
