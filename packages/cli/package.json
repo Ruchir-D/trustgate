@@ -1,0 +1,22 @@
+{
+  "name": "@trustgate/cli",
+  "version": "0.1.0",
+  "description": "CLI for TrustGate package trust analysis",
+  "bin": {
+    "trustgate": "dist/cli.js"
+  },
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "@trustgate/kernel": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}
